@@ -39,7 +39,7 @@ const Contact = ({ data }) => {
             throw new Error("Name, email, Subject and message are required fields.");
          }
          console.log("line 40 in contact js excuted");
-         const response = await fetch("https://10ic149kp7.execute-api.us-east-1.amazonaws.com/v1/message", {
+         const response = await fetch("https://api.amanueletana.com/message", {
              method: "POST",
              headers: {
                 "Content-Type": "application/json",
