@@ -1,0 +1,125 @@
+{
+  "main": {
+    "name": "Amanuel Etana",
+    "occupation": "Java + React developer, Educator and Entrepreneur",
+    "description": "Full Stack Developer with expertise in Java, Node, React & ReactNative.",
+    "image": "aman_nehi.jpg",
+    "bio": "My name is Amanuel, I'm a Full Stack Developer. Currently I'm studying Computer Programming at MIU. I have been lecturing and managing lab since 2006 E.C in AKU and ASTU. I have also thought major computer programing and networking courses. In addition to that I have also conducted projects and advised students on their final year project that involves circuit design and programming microcontroller. I am also people person and passionate to share my knowledge to others and benefit anyone with my experience gathered so far. So I look forward to hear from you, as this is my ideal place to work and develop my carrier.I enjoy solving problems and bringing ideas to life",
+    "contactmessage": "Get in touch with me to receive further details, Hire me for a project or anything else.",
+    "email": "amanuel.etanan@gmail.com",
+    "phone": "+1 641 233 6240",
+    "address": {
+      "street": "1000 4th N",
+      "city": "Fairfield",
+      "state": "Iowa",
+      "zip": "52557"
+    },
+    "website": "#",
+    "resumedownload": "#",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/amanuel-etana/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/aetana",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I am a passionate Entrepreneur and constantly learning to improve my skills, here are few ... ",
+    "education": [
+      {
+        "school": "KU Leuven",
+        "degree": "Master of Electronics and ICT Engineering Technology",
+        "graduated": "Feb 2017",
+        "description": ""
+      },
+      {
+        "school": "Bahir Dar University",
+        "degree": "Bachelor of Science in Computer Engineering",
+        "graduated": "June 2013",
+        "description": "3.65"
+      }
+    ],
+    "work": [
+      {
+        "company": "Hilmika Tech Solution PLC",
+        "title": "Developer",
+        "years": "Jun 2019 - Aug 2022",
+        "description": "Leader, Designer and Developer. Building Payment SDK, For OpenCart Ecommerce CMS"
+      },
+      {
+        "company": "ASTU",
+        "title": "Lecturer",
+        "years": "Oct 2019 - Aug 2022",
+        "description": "Taught Advanced Computer Engineering Course"
+      },
+      
+      {
+        "company": "AKU",
+        "title": "Lecturer and Computer Stream Chair",
+        "years": "April 2013 - Sep 2019",
+        "description": "Taught Advanced Computer Engineering Course"
+      }
+      
+    ],
+    "skills": [
+      {
+        "name": "Java & Spring",
+        "level": "96%"
+      },
+      {
+        "name": "React & React Native",
+        "level": "90%"
+      },
+      {
+        "name": "Node & Express",
+        "level": "65%"
+      },
+      {
+        "name": "HTML5, CSS & JavaScript",
+        "level": "55%"
+      },
+      {
+        "name": "Git & CI/CD",
+        "level": "80%"
+      },
+      {
+        "name": "AWS, MongoDB & PostgresSQL",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Library Managment System",
+        "category": "built using Java, React and Postgress SQL",
+        "image": "Stories-project.png",
+        "url": "https://github.com/aetana/LibraryMS"
+      },
+      {
+        "title": "Course Registration System App",
+        "category": "Test driven development built with (Springboot, UnitTest, Kafka, Materialize)",
+        "image": "budget-project.png",
+        "url": "https://github.com/aetana/CRS"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Enthusiast person with a great work ethic! will definitely hire him again for my future projects. Finished all the assigned task with great quality and met the deadline. ",
+        "user": "Tesfaye Benti"
+      },
+      {
+        "text": "That Amanuel Etana must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak"
+      }
+    ]
+  }
+}

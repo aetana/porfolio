@@ -1,0 +1,50 @@
+name: Deploy ReactJS App to S3
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      BUCKET: amanueletana.com
+      DIST: build
+      REGION: us-east-1
+      DIST_ID: E25NXMFBB7832M
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ env.AWS_REGION }}
+
+    - name: Set up Node.js environment
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: |
+        node --version
+        npm ci --production
+
+    - name: Build ReactJS App
+      run: npm run build
+
+    - name: Sync build files to S3
+      uses: aws-actions/aws-cli@v1
+      with:
+        args: s3 sync build s3://amanueletana.com/ --delete
+    
+    - name: Copy files to the production website with the AWS CLI
+      run: |
+        aws cloudfront create-invalidation \
+          --distribution-id ${{ env.DIST_ID }} \
+          --paths "/*"

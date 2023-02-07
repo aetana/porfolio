@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.upwork {
+  background: url("https://api.iconify.design/simple-icons:upwork.svg?color=white")
+    no-repeat center center / contain;
+  content: url("https://api.iconify.design/simple-icons:upwork.svg?color=white&height=32");
+  vertical-align: -0.125em;
+
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: xxx-large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.upwork:hover {
+  background: url("https://api.iconify.design/simple-icons:upwork.svg?color=%230488a8")
+    no-repeat center center / contain;
+  content: url("https://api.iconify.design/simple-icons:upwork.svg?color=%230488a8&height=32");
+  vertical-align: -0.125em;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: xxx-large;
 }

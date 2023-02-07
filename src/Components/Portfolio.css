@@ -1,0 +1,3 @@
+.bgrid-quarters [class*="column"] {
+  width: 50%;
+}
