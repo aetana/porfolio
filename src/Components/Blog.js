@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { Modal, Button } from 'react-bootstrap';
+import React, { useState } from 'react';
+import { Modal} from 'react-bootstrap';
 
 const Blog = ({ data }) => {
 
