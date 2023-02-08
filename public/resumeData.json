@@ -96,7 +96,7 @@
   "blog": {
     "education": [
       {
-        "school": "Deploying ReactJS Web Application to S3",
+        "school": "ReactJS Web Application CICD with Github Action to S3 and CloudFront",
         "degree": "Step by Step Guide to Deploy Static ReactJS Web Application to S3 and CloudFront",
         "graduated": "Feb 2017",
         "description": "Read More...",
