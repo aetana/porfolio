@@ -3,7 +3,7 @@
     "name": "Amanuel Etana",
     "occupation": "Java + React developer, Educator and Entrepreneur",
     "description": "Full Stack Developer with expertise in Java, Node, React & ReactNative.",
-    "image": "aman_nehi.jpg",
+    "image": "nehi1.jpg",
     "bio": "My name is Amanuel, I'm a Full Stack Developer. Currently I'm studying Computer Programming at MIU. I have been lecturing and managing lab since 2006 E.C in AKU and ASTU. I have also thought major computer programing and networking courses. In addition to that I have also conducted projects and advised students on their final year project that involves circuit design and programming microcontroller. I am also people person and passionate to share my knowledge to others and benefit anyone with my experience gathered so far. So I look forward to hear from you, as this is my ideal place to work and develop my carrier.I enjoy solving problems and bringing ideas to life",
     "contactmessage": "Get in touch with me to receive further details, Hire me for a project or anything else.",
     "email": "amanuel.etanan@gmail.com",
@@ -58,14 +58,13 @@
         "years": "Oct 2019 - Aug 2022",
         "description": "Taught Advanced Computer Engineering Course"
       },
-      
+
       {
         "company": "AKU",
         "title": "Lecturer and Computer Stream Chair",
         "years": "April 2013 - Sep 2019",
         "description": "Taught Advanced Computer Engineering Course"
       }
-      
     ],
     "skills": [
       {
@@ -91,6 +90,18 @@
       {
         "name": "AWS, MongoDB & PostgresSQL",
         "level": "70%"
+      }
+    ]
+  },
+  "blog": {
+    "education": [
+      {
+        "school": "Deploying ReactJS Web Application to S3",
+        "degree": "Step by Step Guide to Deploy Static ReactJS Web Application to S3 and CloudFront",
+        "graduated": "Feb 2017",
+        "description": "Read More...",
+        "pdf": "blog.pdf",
+        "blogImage":"cicd_blog.jpg"
       }
     ]
   },

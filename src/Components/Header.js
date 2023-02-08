@@ -49,11 +49,6 @@ class Header extends Component {
                 Works
               </a>
             </li>
-            {/* <li>
-              <a className="smoothscroll" href="#blog">
-                Blog
-              </a>
-            </li> */}
             <li>
               <a className="smoothscroll" href="#testimonials">
                 Testimonials
@@ -62,6 +57,11 @@ class Header extends Component {
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact
+              </a>
+            </li>
+            <li>
+              <a className="smoothscroll" href="#blog">
+                Blog
               </a>
             </li>
           </ul>
